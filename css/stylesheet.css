@@ -30,9 +30,55 @@ body {
 .sidebar{ 
     grid-area: sidebar;
     background-color: var(--priamry-color);
+    display: grid;
+    grid-template-columns: 1fr 4fr; 
+   
+    color: white;
+    font-size: 28px;
+    font-weight: bold;   
+
+}
+
+.sidebar .col1{
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-rows: repeat(15, 1fr); 
+    justify-items: center;
+
+}
+
+.sidebar .col2{
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: repeat(15, 1fr); 
     
 
 }
+
+.sidebar .col1 > div {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.sidebar .row1{
+    align-self: center;
+    grid-row: span 2;
+    font-size: 48px;
+}
+
+.sidebar .row8{
+    grid-row: 10 / 11;
+}
+
+.sidebar .row9{
+    grid-row: 11 / 12;
+}
+.sidebar .row10{
+    grid-row: 12 / 13;
+}
+
+
 
 .header1 {
     grid-area: header1;
