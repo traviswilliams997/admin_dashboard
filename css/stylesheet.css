@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.container {
+    height: 100%;
+    border: 4px solid black;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-template-areas: 
+      "sidebar header1"
+      "sidebar header2"
+      "sidebar main";
+    gap: 4px;
+}
+
+.sidebar{ 
+    grid-area: sidebar;
+    background-color: blue;
+}
+
+.header1 {
+    grid-area: header1;
+    background-color: red;
+}
+
+.header2 {
+    grid-area: header2;
+    background-color: green;
+}
+
+.main {
+    grid-area: main;
+    background-color: grey;
+}
