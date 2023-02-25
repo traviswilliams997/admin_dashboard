@@ -24,7 +24,6 @@ body {
       "sidebar header1"
       "sidebar header2"
       "sidebar main";
-    gap: 4px;
 }
 
 .sidebar{ 
@@ -93,4 +92,16 @@ body {
 .main {
     grid-area: main;
     background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+   
+   
+
 }
+
+.main .col1, .col2 , .col3  {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+
+}
+
