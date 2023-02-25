@@ -142,19 +142,37 @@ body {
 }
 
 
-
-
 .main .col1 .card1 {
     grid-column: 2 / -1;
     grid-row: span 3;
-    background-color: white;
+   
 }
 
 .main .col2 .card1 {
     grid-column: 2 / -2;
     grid-row: span 3;
-    background-color: white;
 }
+
+
+.main .card1 {
+    background-color: white;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 10px 10px 1fr;
+    grid-template-rows: 1fr 5fr 2fr;
+    
+}
+
+ .main .card1 .side {
+    background-color: gold; 
+    grid-column: span 1;
+    grid-row: span 3;
+} 
+.main .card1 .card-text {
+    grid-column: 3/ span 1;
+    grid-row: 2/ span 1;
+} 
+
 
 
 
