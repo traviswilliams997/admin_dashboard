@@ -195,11 +195,30 @@ body {
     grid-column: 1/ span 5;
     grid-row: span 4;
     background-color: white;
-
+    border-radius: 15px;
     display: grid;
     grid-template-rows: 1fr 4px 2px 4px 1fr 4px 2px 4px 1fr;
 
     
+}
+.main .first-card2 .line {
+    background-color: lightgrey;
+    
+
+}
+
+.main .first-card2 .card-text { 
+    margin-left: 30px;
+    margin-top: 25px;
+    
+
+}
+
+
+.main .first-card2  span {
+    font-weight: bold;
+    
+
 }
 
 
@@ -207,16 +226,55 @@ body {
     grid-column: 1/ span 5;
     grid-row: span 4;
     background-color: white;
+    border-radius: 15px;
 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
 
     
 }
+.main .second-card2 .icons {
+    grid-column: 1/ span 1;
 
-.main .card2 .line {
-    background-color: lightgrey;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  
+
+  
     
-
 }
+.main .second-card2 .icons img {
+    grid-row: span 1;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+
+  
+    
+}
+.main .second-card2 .card-text {
+    grid-column: 2/ -1;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+  
+}
+
+.main .second-card2 .card-text > {
+    background-color: white;
+    grid-row: span 1;
+  
+  
+}
+
+ 
+ .main .second-card2 .card-text span{
+    background-color: white;
+    grid-row: span 1;
+    font-weight: bold;
+  
+  
+} 
 
