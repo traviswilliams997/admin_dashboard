@@ -89,9 +89,18 @@ body {
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
-    justify-items: center;
+    justify-items: left;
     align-items: center;
 
+}
+
+.header2 .header-text-1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.header2 .header-text-2 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .header2 button {
@@ -100,7 +109,7 @@ body {
     font-size: 28px;
     height: 60px;
     width: 150px;
-    border-radius: 20px;
+    border-radius: 50px;
 
 }
 
