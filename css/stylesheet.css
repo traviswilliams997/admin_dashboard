@@ -46,6 +46,8 @@ body {
 
 }
 
+
+
 .sidebar .col2{
     grid-column: 2 / 3;
     display: grid;
@@ -57,6 +59,11 @@ body {
 .sidebar .col1  svg  {
     height: 40px;
     width: 40px;
+}
+
+.sidebar .col1  img  {
+    height: 100px;
+    width: 100px;
 }
 
 .sidebar .row1{
