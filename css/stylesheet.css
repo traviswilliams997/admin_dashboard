@@ -87,6 +87,21 @@ body {
 .header2 {
     grid-area: header2;
     background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.header2 button {
+    background-color: var(--priamry-color);
+    color: white;
+    font-size: 28px;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+
 }
 
 .main {
