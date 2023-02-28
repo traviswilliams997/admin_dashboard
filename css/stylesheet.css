@@ -54,10 +54,9 @@ body {
 
 }
 
-.sidebar .col1 > div {
+.sidebar .col1  svg  {
     height: 50px;
     width: 50px;
-    background-color: white;
 }
 
 .sidebar .row1{
