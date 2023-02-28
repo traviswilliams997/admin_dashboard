@@ -81,7 +81,78 @@ body {
 .header1 {
     grid-area: header1;
     background-color: white;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    align-items: center;
 }
+
+
+.header1  .search-img{
+   grid-column: 1 /span 2;
+   height: 100px;
+   width: auto;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   justify-items: right;
+   align-items: center;
+}
+
+.header1  .search-img svg{
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+ }
+.header1  .search-box{
+    grid-column: 3 /span 9;
+    height: 100px;
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+ }
+
+ .header1  .search-box .box{
+   height: 40px;
+   width: 90%;
+   background-color: var(--secondary-color);;
+   border-radius: 40px;
+ }
+
+ .header1  .bell{
+    grid-column: 12 /span 1;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+
+    align-items: center;
+    justify-items: right;
+ }
+
+ .header1  .profile-picture{
+    grid-column: 13 /span 1;
+    height: 100px;
+    width: auto;
+ }
+
+ .header1  .user-name{
+    grid-column: 14 /-1;
+    height: 100px;
+    width: auto;
+    font-size: 30px;
+    font-weight: bold;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+
+    align-items: center;
+    justify-items: left;
+ }
+
+
 
 .header2 {
     grid-area: header2;
